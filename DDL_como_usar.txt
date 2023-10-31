@@ -1,0 +1,52 @@
+-----------------
+Banco de Dados 
+-----------------
+
+DDL = Linguagem de definição de dados
+
+DML = Linguagem de manipulaçao de dados
+
+* DDl - Create, Alter e Drop 
+* Constrant - Restriçoes e sp_Reanem
+* Dml - Insert, Delete e Update
+
+
+==================================
+
+Sintexe para alterar o conteudo de uma coluna:
+
+
+UPDATE <nome-da-tabela>
+    SET <coluna> = <conteúdo>
+    WHERE <condição>
+
+=================================
+
+Sintaxe para excluir um registro:
+
+DELETE <nome-da-tabela>
+    WHERE <condição
+
+
+=================================
+Operadores lógicos utilizados com WHERE
+operador significado:
+
+= igual a
+> maior que
+>= maior que ou igual a
+< menor que
+<= menor que ou igual a
+<> diferent
+
+
+=================================
+
+Operadores utilizados na clausula WHERE
+operador significado:
+
+in ( .... ) lista de valores
+like - com um padrão de caracteres
+is null - é um valor nulo
+between...and... - entre dois valores (inclusive)
+
